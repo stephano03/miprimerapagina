@@ -1,0 +1,226 @@
+ol,ul{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(251, 241, 233);
+
+}
+
+header{
+    display:flex;
+    background-color: rgb(42, 44, 43);
+    align-items: center;
+    justify-content: space-betweens;
+    border-radius: 20px;
+
+    
+
+}
+nav ul{
+    display:flex;
+    gap: 1.3em;
+
+}
+header nav ul li a{
+    color: rgb(251, 241, 233);
+    
+}
+ header a i{ 
+    color: rgb(251, 241, 233);
+    font-size: 2em;
+    padding: 0.5em;
+ }
+ img{
+    width: 100%;
+    height: 75px;
+    border-radius: 20px;
+    margin-top: 20px;
+    display:grid;
+    justify-content:space-betweens;
+
+
+ }
+ h1, h2, p{
+    font-family: "Madimi One", sans-serif;
+  
+ }
+ footer{
+    display:flex;
+    background-color: rgb(32, 31, 31);
+    align-items: center;
+    justify-content: space-betweens;
+    border-radius: 20px;
+
+ }
+footer nav ol li a{
+    color: rgb(251, 241, 233);
+ }
+ nav ol{display:flex;
+    gap: 1.3em;
+    }
+
+    @media [max-width:767px]
+
+/* ------------- CSS General ------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #5d6063;
+    background-color: #eaedf0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+  }
+  
+  /* ------------- Encabezado Contacto ------------- */
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"]
+  .form-row input[type="email"]{
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+  /* ------------- Para Pantallas de más de 700px ------------- */
+@media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 50px;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .form-row input[type="text"] {
+      width: 250px;
+      height: initial;
+    }
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+    }
+  }
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+  /* ------------- Para Pantallas de más de 700px ------------- */
+  
+  
+  .form-row textarea {
+      width: 250px;
+    }
+    .form-row button {
+        font-size: 16px;
+        font-weight: bold;
+      
+      
+        color: #ffffff;
+        background-color: #5995da;
+      
+      
+        border: none;
+        border-radius: 3px;
+      
+      
+        padding: 10px 40px;
+        cursor: pointer;
+      }
+      
+      
+      .form-row button:hover {
+        background-color: #76aeed;
+      }
+      
+      
+      .form-row button:active {
+        background-color: #407fc7;
+      }
+      
+      
+      /* ------------- Para Pantallas de más de 700px ------------- */
+      
+      
+      .form-row button {
+        margin-left: 120px;
+      }
+          
+        
+      
+
